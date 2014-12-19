@@ -40,6 +40,8 @@
 		D14E2C541A3B85D3008BE699 /* VoltDB Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoltDB Logo.png"; path = "Resources/VoltDB Logo.png"; sourceTree = "<group>"; };
 		D158AFA31A447E3D0095FDB0 /* PropertyViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewCell.swift; sourceTree = "<group>"; };
 		D174AD461A420B4E008AD0F1 /* VoltPanel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = VoltPanel.playground; path = VoltPanel/VoltPanel.playground; sourceTree = "<group>"; };
+		D1884E4E1A44C5D900FB6E07 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D1884E4F1A44C5D900FB6E07 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D195C53F1A3BAABD006E7499 /* PropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
 		D1ABD59A1A3F77C0008D6551 /* VoltJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltJSON.swift; sourceTree = "<group>"; };
 		D1DABC981A3B61C000225CEC /* VoltPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,8 @@
 		D1DABC8F1A3B61C000225CEC = {
 			isa = PBXGroup;
 			children = (
+				D1884E4E1A44C5D900FB6E07 /* LICENSE */,
+				D1884E4F1A44C5D900FB6E07 /* README.md */,
 				D174AD461A420B4E008AD0F1 /* VoltPanel.playground */,
 				D14E2C531A3B85B6008BE699 /* Resources */,
 				D1DABC9A1A3B61C000225CEC /* VoltPanel */,
