@@ -16,6 +16,11 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+xcuserdata
+**/*.xcworkspace/**
+
+# Mac-isms
+.DS_Store
 
 # CocoaPods
 #

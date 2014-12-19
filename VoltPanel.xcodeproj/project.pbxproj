@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0790801A43445A00154FDC /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA07907F1A43445A00154FDC /* InfoBox.swift */; };
+		AA8400791A4077BE005B8748 /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8400781A4077BE005B8748 /* ConnectionViewController.swift */; };
+		AA84007B1A4082A7005B8748 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84007A1A4082A7005B8748 /* SharedData.swift */; };
+		D14E2C551A3B85D3008BE699 /* VoltDB Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D14E2C541A3B85D3008BE699 /* VoltDB Logo.png */; };
+		D158AFA41A447E3D0095FDB0 /* PropertyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158AFA31A447E3D0095FDB0 /* PropertyViewCell.swift */; };
+		D195C5401A3BAABD006E7499 /* PropertyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D195C53F1A3BAABD006E7499 /* PropertyCell.xib */; };
+		D1ABD59B1A3F77C0008D6551 /* VoltJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ABD59A1A3F77C0008D6551 /* VoltJSON.swift */; };
+		D1DABC9E1A3B61C000225CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DABC9D1A3B61C000225CEC /* AppDelegate.swift */; };
+		D1DABCA01A3B61C000225CEC /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DABC9F1A3B61C000225CEC /* ClusterViewController.swift */; };
+		D1DABCA21A3B61C000225CEC /* HostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DABCA11A3B61C000225CEC /* HostsViewController.swift */; };
+		D1DABCA51A3B61C000225CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DABCA31A3B61C000225CEC /* Main.storyboard */; };
+		D1DABCA71A3B61C000225CEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DABCA61A3B61C000225CEC /* Images.xcassets */; };
+		D1DABCAA1A3B61C000225CEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DABCA81A3B61C000225CEC /* LaunchScreen.xib */; };
+		D1DABCB61A3B61C000225CEC /* VoltPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DABCB51A3B61C000225CEC /* VoltPanelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1DABCB01A3B61C000225CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DABC901A3B61C000225CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1DABC971A3B61C000225CEC;
+			remoteInfo = VoltPanel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA07907F1A43445A00154FDC /* InfoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
+		AA8400781A4077BE005B8748 /* ConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
+		AA84007A1A4082A7005B8748 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		D14E2C541A3B85D3008BE699 /* VoltDB Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "VoltDB Logo.png"; path = "Resources/VoltDB Logo.png"; sourceTree = "<group>"; };
+		D158AFA31A447E3D0095FDB0 /* PropertyViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyViewCell.swift; sourceTree = "<group>"; };
+		D174AD461A420B4E008AD0F1 /* VoltPanel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = VoltPanel.playground; path = VoltPanel/VoltPanel.playground; sourceTree = "<group>"; };
+		D195C53F1A3BAABD006E7499 /* PropertyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyCell.xib; sourceTree = "<group>"; };
+		D1ABD59A1A3F77C0008D6551 /* VoltJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltJSON.swift; sourceTree = "<group>"; };
+		D1DABC981A3B61C000225CEC /* VoltPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoltPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DABC9C1A3B61C000225CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DABC9D1A3B61C000225CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1DABC9F1A3B61C000225CEC /* ClusterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
+		D1DABCA11A3B61C000225CEC /* HostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostsViewController.swift; sourceTree = "<group>"; };
+		D1DABCA41A3B61C000225CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1DABCA61A3B61C000225CEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1DABCA91A3B61C000225CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D1DABCAF1A3B61C000225CEC /* VoltPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1DABCB41A3B61C000225CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DABCB51A3B61C000225CEC /* VoltPanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltPanelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1DABC951A3B61C000225CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DABCAC1A3B61C000225CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14E2C531A3B85B6008BE699 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D14E2C541A3B85D3008BE699 /* VoltDB Logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1ABD5971A3F745A008D6551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA07907F1A43445A00154FDC /* InfoBox.swift */,
+				D158AFA31A447E3D0095FDB0 /* PropertyViewCell.swift */,
+				D1DABCA61A3B61C000225CEC /* Images.xcassets */,
+				D195C53F1A3BAABD006E7499 /* PropertyCell.xib */,
+				D1DABCA81A3B61C000225CEC /* LaunchScreen.xib */,
+				D1DABCA31A3B61C000225CEC /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D1ABD5981A3F746E008D6551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1DABC9D1A3B61C000225CEC /* AppDelegate.swift */,
+				D1DABC9F1A3B61C000225CEC /* ClusterViewController.swift */,
+				AA8400781A4077BE005B8748 /* ConnectionViewController.swift */,
+				D1DABCA11A3B61C000225CEC /* HostsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D1ABD5991A3F747C008D6551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA84007A1A4082A7005B8748 /* SharedData.swift */,
+				D1ABD59A1A3F77C0008D6551 /* VoltJSON.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D1DABC8F1A3B61C000225CEC = {
+			isa = PBXGroup;
+			children = (
+				D174AD461A420B4E008AD0F1 /* VoltPanel.playground */,
+				D14E2C531A3B85B6008BE699 /* Resources */,
+				D1DABC9A1A3B61C000225CEC /* VoltPanel */,
+				D1DABCB21A3B61C000225CEC /* VoltPanelTests */,
+				D1DABC991A3B61C000225CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DABC991A3B61C000225CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1DABC981A3B61C000225CEC /* VoltPanel.app */,
+				D1DABCAF1A3B61C000225CEC /* VoltPanelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1DABC9A1A3B61C000225CEC /* VoltPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D1ABD5991A3F747C008D6551 /* Model */,
+				D1ABD5971A3F745A008D6551 /* View */,
+				D1ABD5981A3F746E008D6551 /* Controller */,
+				D1DABC9B1A3B61C000225CEC /* Supporting Files */,
+			);
+			path = VoltPanel;
+			sourceTree = "<group>";
+		};
+		D1DABC9B1A3B61C000225CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1DABC9C1A3B61C000225CEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1DABCB21A3B61C000225CEC /* VoltPanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1DABCB51A3B61C000225CEC /* VoltPanelTests.swift */,
+				D1DABCB31A3B61C000225CEC /* Supporting Files */,
+			);
+			path = VoltPanelTests;
+			sourceTree = "<group>";
+		};
+		D1DABCB31A3B61C000225CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1DABCB41A3B61C000225CEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1DABC971A3B61C000225CEC /* VoltPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DABCB91A3B61C000225CEC /* Build configuration list for PBXNativeTarget "VoltPanel" */;
+			buildPhases = (
+				D1DABC941A3B61C000225CEC /* Sources */,
+				D1DABC951A3B61C000225CEC /* Frameworks */,
+				D1DABC961A3B61C000225CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoltPanel;
+			productName = VoltPanel;
+			productReference = D1DABC981A3B61C000225CEC /* VoltPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1DABCAE1A3B61C000225CEC /* VoltPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1DABCBC1A3B61C000225CEC /* Build configuration list for PBXNativeTarget "VoltPanelTests" */;
+			buildPhases = (
+				D1DABCAB1A3B61C000225CEC /* Sources */,
+				D1DABCAC1A3B61C000225CEC /* Frameworks */,
+				D1DABCAD1A3B61C000225CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1DABCB11A3B61C000225CEC /* PBXTargetDependency */,
+			);
+			name = VoltPanelTests;
+			productName = VoltPanelTests;
+			productReference = D1DABCAF1A3B61C000225CEC /* VoltPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1DABC901A3B61C000225CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Steve Cooper";
+				TargetAttributes = {
+					D1DABC971A3B61C000225CEC = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D1DABCAE1A3B61C000225CEC = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = D1DABC971A3B61C000225CEC;
+					};
+				};
+			};
+			buildConfigurationList = D1DABC931A3B61C000225CEC /* Build configuration list for PBXProject "VoltPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1DABC8F1A3B61C000225CEC;
+			productRefGroup = D1DABC991A3B61C000225CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1DABC971A3B61C000225CEC /* VoltPanel */,
+				D1DABCAE1A3B61C000225CEC /* VoltPanelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1DABC961A3B61C000225CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DABCA51A3B61C000225CEC /* Main.storyboard in Resources */,
+				D1DABCAA1A3B61C000225CEC /* LaunchScreen.xib in Resources */,
+				D14E2C551A3B85D3008BE699 /* VoltDB Logo.png in Resources */,
+				D1DABCA71A3B61C000225CEC /* Images.xcassets in Resources */,
+				D195C5401A3BAABD006E7499 /* PropertyCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DABCAD1A3B61C000225CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1DABC941A3B61C000225CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DABCA21A3B61C000225CEC /* HostsViewController.swift in Sources */,
+				D158AFA41A447E3D0095FDB0 /* PropertyViewCell.swift in Sources */,
+				AA84007B1A4082A7005B8748 /* SharedData.swift in Sources */,
+				D1DABC9E1A3B61C000225CEC /* AppDelegate.swift in Sources */,
+				AA8400791A4077BE005B8748 /* ConnectionViewController.swift in Sources */,
+				D1ABD59B1A3F77C0008D6551 /* VoltJSON.swift in Sources */,
+				D1DABCA01A3B61C000225CEC /* ClusterViewController.swift in Sources */,
+				AA0790801A43445A00154FDC /* InfoBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DABCAB1A3B61C000225CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DABCB61A3B61C000225CEC /* VoltPanelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1DABCB11A3B61C000225CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1DABC971A3B61C000225CEC /* VoltPanel */;
+			targetProxy = D1DABCB01A3B61C000225CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1DABCA31A3B61C000225CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DABCA41A3B61C000225CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1DABCA81A3B61C000225CEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1DABCA91A3B61C000225CEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1DABCB71A3B61C000225CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1DABCB81A3B61C000225CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1DABCBA1A3B61C000225CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoltPanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1DABCBB1A3B61C000225CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoltPanel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1DABCBD1A3B61C000225CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoltPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltPanel.app/VoltPanel";
+			};
+			name = Debug;
+		};
+		D1DABCBE1A3B61C000225CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoltPanelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoltPanel.app/VoltPanel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1DABC931A3B61C000225CEC /* Build configuration list for PBXProject "VoltPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DABCB71A3B61C000225CEC /* Debug */,
+				D1DABCB81A3B61C000225CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DABCB91A3B61C000225CEC /* Build configuration list for PBXNativeTarget "VoltPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DABCBA1A3B61C000225CEC /* Debug */,
+				D1DABCBB1A3B61C000225CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1DABCBC1A3B61C000225CEC /* Build configuration list for PBXNativeTarget "VoltPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DABCBD1A3B61C000225CEC /* Debug */,
+				D1DABCBE1A3B61C000225CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1DABC901A3B61C000225CEC /* Project object */;
+}
